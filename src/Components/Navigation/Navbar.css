@@ -1,0 +1,21 @@
+.nav{
+  position: fixed;
+  height:100vh;
+  width: 5.5rem;
+  background-color: #1F2129;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid darkgrey;
+}
+.open-nav{
+  color: white;
+  margin-bottom: 4rem;
+}
+
+
+.chart,.home,.temporary{
+  color: white;
+  margin: 1rem 0;
+}

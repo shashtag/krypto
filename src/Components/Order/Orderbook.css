@@ -1,0 +1,35 @@
+.orderbook{
+      background-color: #1F2129;
+color:white;
+}
+
+.ask-row,.orderbook-heading,.overbook-subheading{
+  display: flex;
+  justify-content: space-between;
+}
+.orderbook-heading{
+  border-bottom:1px solid darkgray ;
+  font-size: medium;
+}
+
+
+.overbook-subheading,.ask-row{
+  font-size: small;
+  padding: 0.5rem;
+}
+.ask-row{
+  font-weight: 600;
+}
+.orderbook-row{
+  height:16rem;
+  overflow: scroll;
+  font-size: small;
+}
+.price{
+  text-align: center;
+  color: lightgreen;
+  padding: 0.5rem;
+  border: 1px solid darkgray;
+  font-size: large;
+  font-weight: 600;
+}

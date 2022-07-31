@@ -1,0 +1,23 @@
+.order-container{
+  background-color:  #1F2129;
+  color: white;
+  height: 50%;
+}
+.order-header{
+  display: flex;
+  padding: 0.5rem;
+  border-bottom: 1px solid darkgray;
+}
+
+.order-table-header{
+  font-weight: 400;
+}
+.order-table-header{
+  text-align: center;
+  padding: 0.75rem;
+}
+
+table,tr{
+  border: 1px solid darkgray;
+  border-collapse: collapse;
+}
